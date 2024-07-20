@@ -13,7 +13,7 @@ mongoose.connect('mongodb+srv://rabyn900:universe9@cluster0.ikwdezp.mongodb.net/
     console.log('connected')
   })
 })
-
+//
 app.use(cors());
 app.use(morgan('dev'));
 
