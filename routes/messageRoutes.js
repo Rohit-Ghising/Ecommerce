@@ -1,12 +1,12 @@
 import Joi from 'joi';
 import validator from 'express-joi-validation';
 import express from 'express';
-import { addMessage, getMessages } from '../controllers/messageController';
-import { handleAll } from '../utils/common_response';
+import { addMessage, getMessages } from '../controllers/messageController.js';
+import { handleAll } from '../utils/common_response.js';
 
 
 
-export const router = express.Router();
+const router = express.Router();
 
 const valid = validator.createValidator({});
 
@@ -19,3 +19,6 @@ const messageSchema = Joi.object({
 
 
 router.route('/').get(getMessages).post(valid.body(messageSchema), addMessage).all(handleAll);
+
+
+export default router;
