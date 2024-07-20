@@ -2,7 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import mongoose from 'mongoose';
 import morgan from 'morgan';
-import msgRoutes from './routes/messageRoutes.js';
+import msgRoutes from '../routes/messageRoutes';
 const app = express();
 
 
