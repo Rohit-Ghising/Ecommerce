@@ -1,6 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import mongoose from 'mongoose';
+import morgan from 'morgan';
 import msgRoutes from './routes/messageRoutes.js';
 const app = express();
 
@@ -14,6 +15,7 @@ mongoose.connect('mongodb+srv://rabyn900:universe9@cluster0.ikwdezp.mongodb.net/
 })
 
 app.use(cors());
+app.use(morgan('dev'));
 
 
 app.get('/', (req, res) => {
