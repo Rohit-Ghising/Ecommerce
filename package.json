@@ -1,0 +1,21 @@
+{
+  "name": "data_js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-joi-validation": "^5.0.1",
+    "joi": "^17.13.3",
+    "mongoose": "^8.5.1",
+    "morgan": "^1.10.0"
+  }
+}
