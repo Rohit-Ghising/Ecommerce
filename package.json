@@ -1,11 +1,13 @@
 {
-<<<<<<< HEAD
   "name": "data_js",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "keywords": [],
   "author": "",
@@ -22,14 +24,7 @@
     "express-session": "^1.18.0",
     "joi": "^17.13.3",
     "mongoose": "^8.5.1",
-    "morgan": "^1.10.0"
-  }
-}
-=======
-  "name": "project",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
+    "morgan": "^1.10.0",
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
@@ -57,12 +52,6 @@
     "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -87,4 +76,3 @@
     "tailwindcss": "^3.4.4"
   }
 }
->>>>>>> origin/main
